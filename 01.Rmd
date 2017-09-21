@@ -2,13 +2,13 @@
 
 #### Keywords
 
-music, entertainment
+music, entertainment, spotify, soundcloud, audio, social media
 
-## A beginning.
+## A Practical Use
 
 Determining if a song will become a hit could be useful to a lot of different parties. Maybe as an individual consumer, you like to be one step ahead when it comes to discovering music. As an independent artist or talent agency, you'll want to know where to focus your efforts. Perhaps from a more lucrative perspective, the party faced with the problem is an A&R rep at a record label. According to the International Federation of the Phonographic Industry, record companies invest around $4.5 billion dollars annually. Typically, signing a new artist to a record deal can cost anywhere from $500,000 to $2 million dollars, and approximately 1,500 artists have been signed in the last 12 months.  Predicting the likelihood of a song becoming a hit, could help make smarter investment decisions that lead to higher returns.
 
-## A middle.
+## Where is the Data?
 
 There are a number of features related to music that could be useful for creating this kind of model. Audio-based features could be one area of exploration. These features would be an analysis of sonic, melodic, and temporal signals from the actual audio. As seen in previous studies, these kinds of features would be helpful for slightly more predictable tracks, such as Dance music. Data availability is not widely a problem for this, as long as an audio file of the music could be obtained.
 
@@ -16,7 +16,7 @@ Another group of features that could be useful are song meta data. Release year,
 
 Yet another group of features that would be useful is a little more indirect. Consumers are a huge factor when it comes to the success of a song. A model predicting a hit song would be incomplete without considering consumer behavior. This area would be the most difficult in terms of operationalizing the data. Social Media data could be used to find song or artist mentions or posts. Furthermore, sentiment analysis could help determine if those posts are positive or negative. Survey or survey-like data can be used from Ranker, a site in which users rank various sports, entertainment, and political entities and topics. Finally, what could be the most useful of all -- music streaming service user behavior data. Perhaps I could investigate clusters of users based on song plays. Maybe I could reveal momentum for certain songs based on real-time plays. How many times has a new song been added to a playlist in the last day? Could be an early indicator of a hit.
 
-## An end.
+## A Comprehensive Outcome
 
 The outcome? Could be promising, but I can also foresee some issues. I think the audio-based analysis would be the most straightforward in terms of implementation. All data would be available, and it would just be a matter of learning about available algorithms. The problem? Too much unexplained noise. Even the best model with just that data would not be able to tie the very human and emotional aspects that make songs blow up. I think the same goes for meta-data, but you can also add possible classification biases as an issue. Consumer-based data I think could be a good indicator for popularity, however, this kind of data would be the most difficult to obtain, as most if not all of it sit behind some corporation.
 
