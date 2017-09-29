@@ -1,4 +1,4 @@
-# Optimize ROI by Predicting the Next Hit Song {#predict-next-hit-song}
+# Predicting the Next Hit Song {#predict-next-hit-song}
 
 #### Keywords
 
