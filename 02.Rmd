@@ -2,11 +2,13 @@
 
 #### Keywords
 
-NFL, Footbaall, Moneyball, Sports, Fantasy Football
+NFL, Football, Moneyball, Sports, Player Contracts, Player Value, Sports Analytics
 
 ## A beginning.
 
-We all know the story of Moneyball already. Doing something similar to determine the value of players in the NFL could lead to some great results. However, there are some differences to consider
+The total value of active player contracts in the NFL is currently over $19 Billion. Each year, teams sign contracts with rookies and veteran players with the hope that each signing will bring the franchise closer to playoffs and the super bowl. However, estimating the value of players is no easy feat. 
+
+We all know the story of Moneyball. Doing something similar to determine the value of players in the NFL could lead to some great results. However, there are some differences to consider
 
 ## A middle.
 
