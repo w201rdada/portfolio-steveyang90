@@ -6,22 +6,23 @@ NFL, Football, Moneyball, Sports, Player Contracts, Player Value, Sports Analyti
 
 ## A beginning.
 
-The total value of active player contracts in the NFL is currently over $19 Billion. Each year, teams sign contracts with rookies and veteran players with the hope that each signing will bring the franchise closer to playoffs and the super bowl. However, estimating the value of players is no easy feat. 
+Each year, teams in the NFL sign contracts with rookies and veteran players with one goal in mind -- to win games. With $19 Billion at stake and salary caps to consider for each team, team managers and coaches must choose players wisely as their choices will have an impact for years to come.
+
+The total value of active player contracts in the NFL is currently over $19 Billion. Each year, teams sign contracts with rookies and veteran players with the hope that each signing will bring the franchise closer to playoffs and the super bowl. However, estimating the value of players is no easy feat. Even more so than other team sports, the production of a player is not only based on the abilities of the individual, but dependent upon other players on the team, the play call, and the opposing team.
 
 We all know the story of Moneyball. Doing something similar to determine the value of players in the NFL could lead to some great results. However, there are some differences to consider
 
-## A middle.
+## What Really Leads to a Championship?
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+This is geared towards decision makers that need to decide which players to sign contracts with, and which players are just not worth it. It answers two complementary questions. First, is it worth it to renew player X's contract based on his level of play. And second, who are the undervalued players that a franchise should target. Many sports analysts use statistics aggregated to the game level to determine how good a player may be.
 
+The NFL is the latest sport to move forward with more analytics. Stadiums are starting to install cameras that can keep track of all the motion of all the players on the field. The real-time data that is produced by these cameras, allows us to do analyses on a much deeper level than before. We can move from using simple aggregated statistics for a player, to analyzing every motion.
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+This allows us to do a couple of different things. For one, we can use machine learning to measure various attributes about a player. Not only do we now know how many yards a quarterback threw, we can see how this quarterback plays. What allowed the quarterback to throw that many yards? Was it in fact a wide receiver that did most of the works that the quarterback received credit for. Is the quarterback able to evade pass-rushers particularly well? There are so many factors, and not all of these factors may be solely based on the quarterback.
 
+We can then begin to reframe the original question regarding the value of individual players, to a question regarding the value of positions in general. By determining the value of certain positions, we may decide that the real value comes from having a strong offensive line protect the quarterback. Maybe given that strong offensive line, a middle tiered quarterback can do the same amount of damage as a top-tier quarterback, which may allow us to award larger contracts to the root cause. In other words, we could use this deeper analysis to determine the root cause of a successful team, rather than determining individual players. This will allow the value of a contract to be tied to what will most likely win the team a championship, not just about getting the best player.
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
 
 ## An end.
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+The Dallas Cowboys were the first team to take a leap of faith and sign on as clients.
