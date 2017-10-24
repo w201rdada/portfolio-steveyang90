@@ -4,7 +4,7 @@
 
 NFL, Football, Moneyball, Sports, Player Contracts, Player Value, Sports Analytics
 
-## A beginning.
+## Who Should Teams Sign?
 
 Each year, teams in the NFL sign contracts with rookies and veteran players with one goal in mind -- to win games. With $19 Billion at stake and salary caps to consider for each team, team managers and coaches must choose players wisely as their choices will have an impact for years to come.
 
@@ -12,12 +12,14 @@ Decision makers are often led astray by aggregated player statistics and instinc
 
 ## What Really Leads to a Championship?
 
-Of course, the ultimate question for these decision makers is "Who should we sign?" There are, however, a number of more important questions that we need to explore to arrive at the answer to this question. In other words, rather than answering "Who is the best Wide Receiver Available?", we should first be asking "Why do teams win games?" We should re-evaluate positions of large impact and determine synergies between players. This means not only doing an analysis of the best available player, but customizing it at a deep level to the needs of the team.
+Of course, the ultimate question for these decision makers is "Who should we sign?" There are, however, a number of more important questions that we need to explore to arrive at the answer. Rather than answering "Who is the best Wide Receiver Available?", we should first be asking "Why do teams win games?" The first thing we should determine is what it is that a team needs to win, not necessarily who the best player is.
 
-Most are familiar with Moneyball. It's the story of how the Oakland A's used statistics to find undervalued players, and rose to baseball relevance. The concept here is not all that different, but some differences in the nature of the sport, cause complications for carrying out a similar analysis for football. For one, the sample size in football is much smaller. A regular season in the NFL is 17 weeks long, with each of the 32 teams playing 16 games. The MLB on the other hand has 30 teams who each play 162 games in the regular season. Another difference, as mentioned before is the dependence of an individual player's production on outside factors.
+Most people are familiar with Moneyball. It's the story of how the Oakland A's used statistics to find undervalued players and rose to baseball relevance. The concept here is not all that different, but some differences in the nature of the sport cause some additional complexities. For one, the sample size in football is much smaller. A regular season in the NFL is 17 weeks long, with each of the 32 teams playing 16 games. The MLB on the other hand has 30 teams who each play 162 games in the regular season. Another difference, as mentioned before is the dependence of an individual player's production on outside factors. For example, no matter how good a receiver is, he still needs a quarterback to be able to throw the ball, and vice versa.
 
-Fortunately, the NFL has seen advances in analytics initiatives. NFL's Next Gen Stats provide real time location data for every player on every inch of the field using sensors. Also available is a more contextual play by play data that describes verbally what happened in each play. Using this granular data, we can start to analyze the factors that make a team win, which may or may not be due to any individual player. In other words, we could start to analyze the cause of a player success.
+Fortunately, the NFL has seen advances in analytics initiatives. NFL's Next Gen Stats provide real time location data for every player on every inch of the field using sensors. Also available is more contextual play-by-play data that describes verbally what happened in each play. Using this granular data, we can start to analyze the factors that make a team win, which may or may not be due to any individual player. In other words, we could start to analyze the cause of a team's success, and then use that in determining which players are needed.
 
-## An end.
+## Isolating Causation is Still Difficult
 
-The Dallas Cowboys were the first team to take a leap of faith and sign on as clients.
+After a disastrous 2017 season, the 49ers are the first to take a leap of faith, and see what analytics can do for the franchise. Over half the spots on the roster were changed, and after a rocky couple of years rebuilding the 49ers are on their way to the Super Bowl.
+
+Isolating causation proves to be more challenging than expected. With what we've learned so far, we've been able to find players that contribute to wins, but it's tough to prove causation. The research on causation will become easier as more data is collected in the coming years.
