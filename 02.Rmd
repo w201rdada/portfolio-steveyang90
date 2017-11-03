@@ -1,54 +1,27 @@
-# Quantifying NFL Player Production via Machine Watching Film {#moeyball-nfl}
+# Quantify NFL Player Production via Machine "Watching Film" {#nfl-quantify-productivity}
 
 #### Keywords
 
-NFL, Football, Moneyball, Sports, Player Contracts, Player Value, Sports Analytics
+NFL, Football, Machine Vision, Neural Network, NLP, Sports Analytics
 
-## Who Should Teams Sign?
+## How Scouts Discover Talent
 
-Finding new talent in the NFL plays a crucial role in building a competitive team. With a current active value of contracts adding up to $19 billion dollars and the implications of salary cap decisions on future seasons, not only is scouting a high-stake job, but one which could have long term consequences on a team's well-being.
+Finding talent in the NFL plays a crucial role in building a successful team. With a current active value of contracts adding up to $19 billion dollars and the implications of salary cap decisions on future seasons, not only is scouting a high-stake job, but one which could have long term consequences on a team's well-being.
 
-Ultimately, teams are looking for players that are productive and can help win games. There are several ways for scouts to analyze prospective players; here are just two of those ways. "Watching film" allows scouts to deeply analyze individual plays, but these analyses are subject to the opinion or instinct of each scout. Consequently, this doesn't allow for a holistic view across the entire league, and comparisons are difficult. On the other hand, player statistics allow a more objective comparison, but currently used statistics is not necessarily a good proxy for player productivity. It doesn't take into account the many intricacies that are exposed from a deeper methodology.
-
-
-Analytics has become a valuable asset in professional team sports in gainging a competitive advantage. Teams in the NFL, however, have been have been slower than those in other leagues to adopt data science. [This article](http://www.espn.com/espn/story/_/id/10476210/nba-mlb-embrace-analytics-nfl-reluctant-espn-magazine) shares some interesting insights on why this may be the case.
-
-One such reason is simply due to the nature of the game. Take for example the success of the Oakland A's in Moneyball(link). The MLB is composed of 30 teams who each play 162 games in a regular season. On the other hand, a regular season in the NFL is 17 weeks long, with each of the 32 teams playing only 16 games.
-
-Due to recent initiatives to increase analytics power, sensors produce data for the movement of every player on the field during a game.
-
-
-
-Each year, teams in the NFL sign contracts with rookies and veteran players with one goal in mind -- to win games. With $19 Billion and salary caps at stake each year, team managers and coaches must choose players wisely as their choices will have an impact for years to come.
-
-Decision makers are often led astray by aggregated player statistics and instinct. Determining which players to sign is no easy feat. Even more so than other team sports, the production of a player is not only based on the abilities of the individual, but dependent upon a very large number of factors such as other players on the team, the play call, and the opposing team.
+Ultimately, teams are looking for players that are productive and can help win games. While there are several ways that scouts analyze prospective players, here are just two. "Watching film" allows scouts to deeply analyze individual plays, but these analyses are subject to the opinion or instinct of each scout. Consequently, this doesn't allow for a holistic view across the entire league, and comparisons are difficult. On the other hand, player statistics allow a more objective comparison, but currently used statistics is not necessarily a good proxy for player productivity. It doesn't take into account the intricacies that are exposed from watching the interaction of players on film.
 
 ## The Machine Equivalent of "Watching Film"
 
-The task at hand is to determine a player's value, particularly in the context of signing players to a contract.
+Although teams in the NFL have been slower than in other leagues to embrace analytics, recent data improvements create an opportunity to better quantify player productivity. One such improvement is the real-time location tracking of each player in every game through the use of sensors. The data can be operationalized to provide a more objective method for scouts to find players that meet the team's needs.
 
-I propose an alternate way to quantify the value of a player. Rather than awarding metrics from a play to a single player, the measurements of each play should be attributed to all players on the field, even those indirectly involved. This can be done by, first, using NLP to parse play-by-play (PBP) data. This would determine the total value that will be awarded to all players and the direct players that were involved. Next, The PBP data will be used to group together the real-time sensor data to its respective play. Finally, Deep Learning algorithms will be used on the sensor data to proportionately split the measurements that are awarded to each player on the field.
+Consider a brief analogy from marketing analytics. Attribution models attempt to assign credit for a conversion or sale to various marketing channels. Up until recently, a very commonly accepted form of the model was known as "Last Click", in which all the credit goes to the last ad that led the user to purchase something. Then, if the marketer is to query the effectiveness of marketing channels the answer would be based on over- and underestimates of certain channels. A more recent method knowns as a "Multi-Channel" model attempts to probabilistically distribute the credit to each channel based on underlying data.
 
-Here is a more concrete example. PBP data will state "(:09) (Shotgun) 12-A.Rodgers pass long right to 18-R.Cobb for 53 yards". From this description, it is determined that 53 yards need to be attributed amongst some or all players on the field, and that the primary actors were Rodgers and Cobb. Sensor data is then segmented to this play and the algorithm determines the proportion of the 53 yards that are to be awarded to each of the 22 players on the field. This effectively is like an algorithmic version of "watching tape."
+Analogously, the production of a play should not be credited to just a single or even just a couple of players. Football is a highly dynamic and interactive sport that is dependent on the actions of many different players. Rather than awarding metrics from a play to a single player, the measurements of each play should be attributed to all players on the field, even those indirectly involved. This can be done by, first, using NLP to parse play-by-play (PBP) data. This would determine the direct players that were involved and the total production value that will be distributed to all direct and indirect players. Next, The PBP data will be joined with the sensor data to group together each respective play. Finally, Deep Learning algorithms will be used to determine the proportion that will be awarded to each player. This effectively is like an algorithmic version of "watching film."
 
+Here is a more concrete example. PBP data will state "(:09) (Shotgun) 12-A.Rodgers pass long right to 18-R.Cobb for 53 yards". From this description, it is determined that 53 yards need to be attributed amongst some or all players on the field, and that the primary actors were Rodgers and Cobb. Sensor data is then segmented to this play and the algorithm determines the proportion of the 53 yards that are to be awarded to each of the 22 players on the field.
 
-player metrics. Analogous to attribution modeling, the measurements of each play should be attributed to all players on the field that may have affected the outcome of the play, not only those directly involved. This can be accomplished by using two streams of data. Play by play data, which verbally describes what happened in each given play, can be parsed to determine direct contributors and the measurement.
+## First Iteration is Good, but Shows Limited Predictive Power
 
+Although there can never be a true consensus on player productivity, professional scouts across the league are pleasantly surprised by the algorithm's valuation of player productivity. It allows decision makers to compare players across the league fairly well, based on historical productivity. This help scouts decide which players to recruit, but, ultimately, much of the reasoning is still left to the individual.
 
-The NFL API provides play by play data, which verbally describes what happened in each given play. First, this can be parsed to determine the direct players that were involved in the play.
-
-Typically, statistics for the NFL are lump-sum. I propose that statistics, such as yards gained or touchdowns properly attributed to
-
-Football is a high dimensional sport that relies heavily on the entire unit on the field. As such, the statistics that are "awarded"
-
-Of course, the ultimate question for these decision makers is "Who should we sign?" There are, however, a number of more important questions that we need to explore to arrive at the answer. Rather than answering "Who is the best Wide Receiver Available?", we should first be asking "Why do teams win games?" The first thing we should determine is what it is that a team needs to win, not necessarily who the best player is.
-
-Most people are familiar with Moneyball. It's the story of how the Oakland A's used statistics to find undervalued players and rose to baseball relevance. The concept here is not all that different, but some differences in the nature of the sport cause some additional complexities. For one, the sample size in football is much smaller. A regular season in the NFL is 17 weeks long, with each of the 32 teams playing 16 games. The MLB on the other hand has 30 teams who each play 162 games in the regular season. Another difference, as mentioned before is the dependence of an individual player's production on outside factors. For example, no matter how good a receiver is, he still needs a quarterback to be able to throw the ball, and vice versa.
-
-Fortunately, the NFL has seen advances in analytics initiatives. NFL's Next Gen Stats provide real time location data for every player on every inch of the field using sensors. Also available is more contextual play-by-play data that describes verbally what happened in each play. Using this granular data, we can start to analyze the factors that make a team win, which may or may not be due to any individual player. In other words, we could start to analyze the cause of a team's success, and then use that in determining which players are needed.
-
-## Isolating Causation is Still Difficult
-
-After a disastrous 2017 season, the 49ers are the first to take a leap of faith, and see what analytics can do for the franchise. Over half the spots on the roster were changed, and after a rocky couple of years rebuilding the 49ers are on their way to the Super Bowl.
-
-Isolating causation proves to be more challenging than expected. With what we've learned so far, we've been able to find players that contribute to wins, but it's tough to prove causation. The research on causation will become easier as more data is collected in the coming years.
+Future iterations of the research will seek to increase predictive power. Although historical productivity could be a good indicator for future productivity, there are a lot of factors that can change productivity down the line. Later versions will allow for simulation of certain scenarios, allowing more components of the decision making process to be weighted to the algorithm.
