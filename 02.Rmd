@@ -1,4 +1,4 @@
-# Quantify NFL Player Production via Machine "Watching Film" {#nfl-quantify-productivity}
+# Quantifying NFL Player Production via Machine "Watching Film" {#nfl-quantify-productivity}
 
 #### Keywords
 
