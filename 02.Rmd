@@ -20,7 +20,7 @@ Analogously, the production value created in a play should not be credited to ju
 
 Here is a more concrete example. PBP data states "(:09) (Shotgun) 12-A.Rodgers pass long right to 18-R.Cobb for 53 yards". From this description, we know that the production value of 53 yards was created as a pass from Rodgers to Cobb and the time of play which is used to merge with sensor data. The evaluation of sensor data produces the proportion of the 53 yards that are to be awarded to each of the 22 players on the field.
 
-## First Iteration is Good, but Shows Limited Predictive Power
+## Ways to Increase Predictive Power
 
 Although there can never be a true consensus on player productivity, professional scouts across the league are pleasantly surprised by the algorithm's valuation of player productivity. The new statistics are used by scouts for comparative analysis, and become an important factor in the decision to sign a player. Although a good indicator, historic productivity alone does not have enough predictive power.
 
