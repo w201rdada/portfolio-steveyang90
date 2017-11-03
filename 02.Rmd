@@ -1,4 +1,4 @@
-# Moneyball for the NFL {#moeyball-nfl}
+# Quantifying NFL Player Production via Machine Watching Film {#moeyball-nfl}
 
 #### Keywords
 
@@ -6,11 +6,40 @@ NFL, Football, Moneyball, Sports, Player Contracts, Player Value, Sports Analyti
 
 ## Who Should Teams Sign?
 
-Each year, teams in the NFL sign contracts with rookies and veteran players with one goal in mind -- to win games. With $19 Billion at stake and salary caps to consider for each team, team managers and coaches must choose players wisely as their choices will have an impact for years to come.
+Finding new talent in the NFL plays a crucial role in building a competitive team. With a current active value of contracts adding up to $19 billion dollars and the implications of salary cap decisions on future seasons, not only is scouting a high-stake job, but one which could have long term consequences on a team's well-being.
+
+Ultimately, teams are looking for players that are productive and can help win games. There are several ways for scouts to analyze prospective players; here are just two of those ways. "Watching film" allows scouts to deeply analyze individual plays, but these analyses are subject to the opinion or instinct of each scout. Consequently, this doesn't allow for a holistic view across the entire league, and comparisons are difficult. On the other hand, player statistics allow a more objective comparison, but currently used statistics is not necessarily a good proxy for player productivity. It doesn't take into account the many intricacies that are exposed from a deeper methodology.
+
+
+Analytics has become a valuable asset in professional team sports in gainging a competitive advantage. Teams in the NFL, however, have been have been slower than those in other leagues to adopt data science. [This article](http://www.espn.com/espn/story/_/id/10476210/nba-mlb-embrace-analytics-nfl-reluctant-espn-magazine) shares some interesting insights on why this may be the case.
+
+One such reason is simply due to the nature of the game. Take for example the success of the Oakland A's in Moneyball(link). The MLB is composed of 30 teams who each play 162 games in a regular season. On the other hand, a regular season in the NFL is 17 weeks long, with each of the 32 teams playing only 16 games.
+
+Due to recent initiatives to increase analytics power, sensors produce data for the movement of every player on the field during a game.
+
+
+
+Each year, teams in the NFL sign contracts with rookies and veteran players with one goal in mind -- to win games. With $19 Billion and salary caps at stake each year, team managers and coaches must choose players wisely as their choices will have an impact for years to come.
 
 Decision makers are often led astray by aggregated player statistics and instinct. Determining which players to sign is no easy feat. Even more so than other team sports, the production of a player is not only based on the abilities of the individual, but dependent upon a very large number of factors such as other players on the team, the play call, and the opposing team.
 
-## What Really Leads to a Championship?
+## The Machine Equivalent of "Watching Film"
+
+The task at hand is to determine a player's value, particularly in the context of signing players to a contract.
+
+I propose an alternate way to quantify the value of a player. Rather than awarding metrics from a play to a single player, the measurements of each play should be attributed to all players on the field, even those indirectly involved. This can be done by, first, using NLP to parse play-by-play (PBP) data. This would determine the total value that will be awarded to all players and the direct players that were involved. Next, The PBP data will be used to group together the real-time sensor data to its respective play. Finally, Deep Learning algorithms will be used on the sensor data to proportionately split the measurements that are awarded to each player on the field.
+
+Here is a more concrete example. PBP data will state "(:09) (Shotgun) 12-A.Rodgers pass long right to 18-R.Cobb for 53 yards". From this description, it is determined that 53 yards need to be attributed amongst some or all players on the field, and that the primary actors were Rodgers and Cobb. Sensor data is then segmented to this play and the algorithm determines the proportion of the 53 yards that are to be awarded to each of the 22 players on the field. This effectively is like an algorithmic version of "watching tape."
+
+
+player metrics. Analogous to attribution modeling, the measurements of each play should be attributed to all players on the field that may have affected the outcome of the play, not only those directly involved. This can be accomplished by using two streams of data. Play by play data, which verbally describes what happened in each given play, can be parsed to determine direct contributors and the measurement.
+
+
+The NFL API provides play by play data, which verbally describes what happened in each given play. First, this can be parsed to determine the direct players that were involved in the play.
+
+Typically, statistics for the NFL are lump-sum. I propose that statistics, such as yards gained or touchdowns properly attributed to
+
+Football is a high dimensional sport that relies heavily on the entire unit on the field. As such, the statistics that are "awarded"
 
 Of course, the ultimate question for these decision makers is "Who should we sign?" There are, however, a number of more important questions that we need to explore to arrive at the answer. Rather than answering "Who is the best Wide Receiver Available?", we should first be asking "Why do teams win games?" The first thing we should determine is what it is that a team needs to win, not necessarily who the best player is.
 
