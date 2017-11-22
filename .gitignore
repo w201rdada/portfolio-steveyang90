@@ -21,8 +21,5 @@
 !docs/*/*/*/*
 !docs/*/*/*/*/*
 !docs/*/*/*/*/*/*
-<<<<<<< HEAD
 Dockerfile
 .Rproj.user
-=======
->>>>>>> 327f016e9d9030be9dad4127f76c22fa77f02c9d
