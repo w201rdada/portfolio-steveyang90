@@ -16,15 +16,15 @@ library(magrittr)
 
 This site contains my portfolio of projects from "Research Design and Applications for Data and Analysis" as part of the UC Berkeley MIDS program. Currently, this involves some conceptual data science problems, with more updates to come that include implementation.
 
-### Abstract of Predicting the Next Hit Song
-
-Major record labels alone invest around $4.5 billion anually on artists. Being able to predict the likelihood of a hit song by a given artist is an important first step to determining if that artist will be a smart investment for the label. 
-
-### Abstract of Quantifying NFL Player Production via Machine "Watching Film"
+### Abstract of Quantifying NFL Player Production via Machine "Watching Film" {-}
 
 Finding talent in the NFL plays a crucial role in building a successful team. Scouting is both a high stakes job and one which could have long term consequences on a team's well-being. The predominant ways that NFL scouts look for new players to sign include "watching film" and looking at player statistics, both of which fall short. The first allows for detailed analyses of players, but since they are subject to the opinion of individuals, it is difficult to reconcile measures of player productivity across the league. The latter allows for measures that can be agreed upon across the league, but fails to examine all the important and necessary details.
 
 In this proposal, I explore ways in which we could use data that have been made recently available for a comprehensive approach to measuring player productivity -- ultimately leading to better decisions when signing players to a team. The methodology involves measuring player statistics, similar to those that are already measured, then to use machine learning algorithms that analyze real-time sensor data to attribute those statistics among all involved parties.
+
+### Abstract of Predicting the Next Hit Song {-}
+
+Major record labels alone invest around $4.5 billion anually on artists. Being able to predict the likelihood of a hit song by a given artist is an important first step to determining if that artist will be a smart investment for the label. 
 
 ## About the author {-}
 
