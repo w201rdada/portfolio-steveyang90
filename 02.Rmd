@@ -1,16 +1,16 @@
-# Quantifying NFL Player Production via Machine "Watching Film" {#quantifying-nfl-productivity} {-}
+# Quantifying NFL Player Production via Machine "Watching Film" {#quantifying-nfl-productivity}
 
-#### Keywords {-}
+#### Keywords
 
 NFL, Football, Machine Vision, Neural Network, NLP, Sports Analytics
 
-## How Scouts Discover Talent {-}
+## How Scouts Discover Talent
 
 Finding talent in the NFL plays a crucial role in building a successful team. With the current active value of contracts adding up to $19 billion dollars and the implications that salary caps have on future seasons, not only is scouting a high-stakes job, but one which has long-term consequences on a team's well-being.
 
 Ultimately, teams are looking for players that are productive and can help win games. There are two ways this is normally done. "Watching film" is the process by which scouts deeply analyze individual plays and identify productive players. Unfortunately, these analyses are time consuming and subject to the opinion or instinct of each scout. Consequently, this method doesn't allow for a holistic view across the entire league and makes comparisons difficult. On the other hand, player statistics allow a more objective comparison, but currently used statistics are not necessarily a good proxy for player productivity. Specifically, they reveal much less about player interaction than watching the players on film.
 
-## The Machine Equivalent of "Watching Film" {-}
+## The Machine Equivalent of "Watching Film"
 
 Although teams in the NFL have been slower than in other leagues to embrace analytics, recent data improvements have created an opportunity to better quantify player productivity. In general, the production value created in a play should not be credited to just one player. Football is a highly dynamic and interactive sport that is dependent on the simultaneous actions of many players. Therefore, the credit should be attributed to those involved both directly and indirectly.
 
@@ -20,7 +20,7 @@ My company's solution applies natural language processing algorithms to descript
 
 Here is a more concrete example. PBP data states "(:09) (Shotgun) 12-A.Rodgers pass long right to 18-R.Cobb for 53 yards". From this description, we know that the production value of 53 yards was created as a pass from Rodgers to Cobb. We also know the time of play, which is used to incorporate the sensor data. The evaluation of sensor data produces the proportion of the 53 yards that are to be awarded to each of the 22 players on the field.
 
-## Ways to Increase Predictive Power {-}
+## Ways to Increase Predictive Power
 
 Although there can never be a true consensus on player productivity, professional scouts across the league are pleasantly surprised by the algorithm's valuation of player productivity. The new statistics are used by scouts for comparative analysis and become an important factor in the decision to sign a player. Although a good indicator, historic productivity alone is not a perfect predictor of future performance.
 

@@ -1,14 +1,14 @@
-# Predicting the Next Hit Song {#next-hit-song} {-}
+# Predicting the Next Hit Song {#next-hit-song}
 
-#### Keywords {-}
+#### Keywords
 
 music, entertainment, spotify, soundcloud, audio, social media
 
-## A Practical Use {-}
+## A Practical Use
 
 According to the International Federation of the Phonographic Industry, record companies invest around $4.5 billion dollars annually. Typically, signing a new artist to a record deal can cost anywhere from $500,000 to $2 million dollars, and approximately 1,500 artists have been signed in the last 12 months. For these businesses, predicting the likelihood of a song becoming a hit, could help make smarter investment decisions that lead to higher returns.
 
-## What Makes This Different Than Prior Attempts? {-}
+## What Makes This Different Than Prior Attempts?
 
 The idea to churn out pop hits using statistical modeling isn't completely new. There are a number of different methods in which models have been created to focus on this question, each with a unique set of interesting model features. In certain studies, models were created by analyzing the sonic, melodic, and temporal qualities from actual audio signals of the song. From a data availability standpoint, this is probably the most simple. However, there is more to music than just the physical audio qualities.
 
@@ -18,9 +18,8 @@ Finally, there are some indirect measures, which may be the most useful. Consume
 
 For the consumer preferences portion, data accessibility will be a challenge. Although the underlying data is out there, there will need to be strong incentives for companies that have this data to share. Also, in terms of the model itself, predicting the success of a more "revolutionary" artist that is ahead of the current trend in music will be more difficult.
 
-## Objective Decision Making on a Subjective Matter {-}
+## Objective Decision Making on a Subjective Matter
 
 People make decisions based on emotions all the time. When you're consuming music, there is no disadvantage to this. You listen to songs you like, and there is no reason to measure it against other songs. In the context of business decisions, however, objectivity helps. Because music is such a hard thing for people to look at objectively, this tool could really help decision makers anchor themselves to the preferences of a population.
 
 Ultimately, record labels could plug in songs to this platform to see if there are early indicators of a rising star. Predicting the hit likelihood of an individual song, will not necessarily predict if signing that artist will be profitable overall, but it could be a very helpful indicator. The concept is, if an artist has many songs that are predicted to be a hit, they are likely to be a good return on the business' initial investment.
-
