@@ -12,7 +12,7 @@ library(magrittr)
 ```
 
 
-# Welcome!
+# Welcome! {-}
 
 This site contains my portfolio of projects from "Research Design and Applications for Data and Analysis" as part of the UC Berkeley MIDS program. Currently, this involves some conceptual data science problems, with more updates to come that include implementation.
 
@@ -26,7 +26,7 @@ Finding talent in the NFL plays a crucial role in building a successful team. Sc
 
 In this proposal, I explore ways in which we could use data that have been made recently available for a comprehensive approach to measuring player productivity -- ultimately leading to better decisions when signing players to a team. The methodology involves measuring player statistics, similar to those that are already measured, then to use machine learning algorithms that analyze real-time sensor data to attribute those statistics among all involved parties.
 
-## About the author
+## About the author {-}
 
 After receiving my BA in Economics and a minor in Music Technology from USC, I wanted to discover a career that could join the two fields. First I worked as an analyst in litigation and economic consulting, followed by my position at a marketing analytics company as a Data Engineer. Both positions helped me discover my love for data science, but I continued to maintain a strong interest in the music and entertainment industry. Now, I am in my first year of my Masters in Information and Data Science degree at UC Berkeley to learn and apply data science techniques to solve problems in the entertainment and media industry.
 
