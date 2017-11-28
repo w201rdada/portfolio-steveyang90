@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
+<link rel="prev" href="quantifying-nfl-player-production-via-machine-watching-film-nfl-quantify-productivity.html">
 
-<link rel="next" href="quantifying-nfl-player-production-via-machine-watching-film-nfl-quantify-productivity.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -99,27 +99,27 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">W201 Portfolio</h1>
-<h4 class="author"><em>Steve Yang</em></h4>
-<h4 class="date"><em>MIDS Fall 2017</em></h4>
+<div id="predicting-the-next-hit-song-next-hit-song" class="section level1 unnumbered">
+<h1>Predicting the Next Hit Song {#next-hit-song}</h1>
+<div id="keywords-1" class="section level4">
+<h4><span class="header-section-number">1.1.0.2</span> Keywords</h4>
+<p>music, entertainment, spotify, soundcloud, audio, social media</p>
 </div>
-<div id="welcome" class="section level1">
-<h1><span class="header-section-number">1</span> Welcome!</h1>
-<p>This site contains my portfolio of projects from “Research Design and Applications for Data and Analysis” as part of the UC Berkeley MIDS program. Currently, this involves some conceptual data science problems, with more updates to come that include implementation.</p>
-<div id="abstract-of-predicting-the-next-hit-song" class="section level3">
-<h3><span class="header-section-number">1.0.1</span> Abstract of Predicting the Next Hit Song</h3>
-<p>Major record labels alone invest around $4.5 billion anually on artists. Being able to predict the likelihood of a hit song by a given artist is an important first step to determining if that artist will be a smart investment for the label.</p>
+<div id="a-practical-use" class="section level2 unnumbered">
+<h2>A Practical Use</h2>
+<p>According to the International Federation of the Phonographic Industry, record companies invest around $4.5 billion dollars annually. Typically, signing a new artist to a record deal can cost anywhere from $500,000 to $2 million dollars, and approximately 1,500 artists have been signed in the last 12 months. For these businesses, predicting the likelihood of a song becoming a hit, could help make smarter investment decisions that lead to higher returns.</p>
 </div>
-<div id="abstract-of-quantifying-nfl-player-production-via-machine-watching-film" class="section level3">
-<h3><span class="header-section-number">1.0.2</span> Abstract of Quantifying NFL Player Production via Machine “Watching Film”</h3>
-<p>Finding talent in the NFL plays a crucial role in building a successful team. Scouting is both a high stakes job and one which could have long term consequences on a team’s well-being. The predominant ways that NFL scouts look for new players to sign include “watching film” and looking at player statistics, both of which fall short. The first allows for detailed analyses of players, but since they are subject to the opinion of individuals, it is difficult to reconcile measures of player productivity across the league. The latter allows for measures that can be agreed upon across the league, but fails to examine all the important and necessary details.</p>
-<p>In this proposal, I explore ways in which we could use data that have been made recently available for a comprehensive approach to measuring player productivity – ultimately leading to better decisions when signing players to a team. The methodology involves measuring player statistics, similar to those that are already measured, then to use machine learning algorithms that analyze real-time sensor data to attribute those statistics among all involved parties.</p>
+<div id="what-makes-this-different-than-prior-attempts" class="section level2 unnumbered">
+<h2>What Makes This Different Than Prior Attempts?</h2>
+<p>The idea to churn out pop hits using statistical modeling isn’t completely new. There are a number of different methods in which models have been created to focus on this question, each with a unique set of interesting model features. In certain studies, models were created by analyzing the sonic, melodic, and temporal qualities from actual audio signals of the song. From a data availability standpoint, this is probably the most simple. However, there is more to music than just the physical audio qualities.</p>
+<p>Another group of features that could be useful are song meta data. Release year, associated artists and producers, biographic information about the artist, and genre-like tags are examples of such features. I say genre-like tags because many platforms such as Spotify or open source sites like MusicBrainz have created more specific clusters lately than traditional, and somewhat arbitrary, genres. This information could be used to cluster songs into different groups to perform optimal analyses for each song based on the attributes.</p>
+<p>Finally, there are some indirect measures, which may be the most useful. Consumers are a huge factor when it comes to the success of a song. A model predicting a hit song would be incomplete without considering consumer trends. What researchers found challenging using the direct audio signals to model, was that the models were accurate, but only for a window of time. In other words, the models would work – until they didn’t. Many of these changes could be based on changing consumer preferences in music. But, what if there was a way to model consumer preferences, and subsequently use that model to inform the models that are based on audio features. We’d be able to dynamically adapt the audio models based on the shift in musical preferences. This could be done with user data from streaming services such as Spotify or Pandora.</p>
+<p>For the consumer preferences portion, data accessibility will be a challenge. Although the underlying data is out there, there will need to be strong incentives for companies that have this data to share. Also, in terms of the model itself, predicting the success of a more “revolutionary” artist that is ahead of the current trend in music will be more difficult.</p>
 </div>
-<div id="about-the-author" class="section level2">
-<h2><span class="header-section-number">1.1</span> About the author</h2>
-<p>After receiving my BA in Economics and a minor in Music Technology from USC, I wanted to discover a career that could join the two fields. First I worked as an analyst in litigation and economic consulting, followed by my position at a marketing analytics company as a Data Engineer. Both positions helped me discover my love for data science, but I continued to maintain a strong interest in the music and entertainment industry. Now, I am in my first year of my Masters in Information and Data Science degree at UC Berkeley to learn and apply data science techniques to solve problems in the entertainment and media industry.</p>
-<p><em>Updated: 2017-11-28</em></p>
+<div id="objective-decision-making-on-a-subjective-matter" class="section level2 unnumbered">
+<h2>Objective Decision Making on a Subjective Matter</h2>
+<p>People make decisions based on emotions all the time. When you’re consuming music, there is no disadvantage to this. You listen to songs you like, and there is no reason to measure it against other songs. In the context of business decisions, however, objectivity helps. Because music is such a hard thing for people to look at objectively, this tool could really help decision makers anchor themselves to the preferences of a population.</p>
+<p>Ultimately, record labels could plug in songs to this platform to see if there are early indicators of a rising star. Predicting the hit likelihood of an individual song, will not necessarily predict if signing that artist will be profitable overall, but it could be a very helpful indicator. The concept is, if an artist has many songs that are predicted to be a hit, they are likely to be a good return on the business’ initial investment.</p>
 
 </div>
 </div>
@@ -128,8 +128,8 @@
           </div>
         </div>
       </div>
+<a href="quantifying-nfl-player-production-via-machine-watching-film-nfl-quantify-productivity.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="quantifying-nfl-player-production-via-machine-watching-film-nfl-quantify-productivity.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -158,7 +158,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/w201rdada/portfolio-steveyang90/edit/master/index.Rmd",
+"link": "https://github.com/w201rdada/portfolio-steveyang90/edit/master/01.Rmd",
 "text": "Edit"
 },
 "download": null,
